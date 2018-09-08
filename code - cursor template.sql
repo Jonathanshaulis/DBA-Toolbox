@@ -7,7 +7,7 @@ DECLARE @id nvarchar(200);
 
 DECLARE C CURSOR FAST_FORWARD FOR
 select id from cond 
-where CONN_HOST = 'SUP-AUS-DPA-DB\DEV_ENV'
+where CONN_HOST = ''
 OPEN C;
 
 FETCH NEXT FROM C INTO @id;
