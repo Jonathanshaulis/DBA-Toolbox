@@ -4,7 +4,7 @@
 	exec sp_change_users_login 'Report'
 	
 
--- Run this on 04 to generate the create login script if you need to create a login on DS1.
+-- Run this to generate the create login script if you need to create a login.
 	EXEC sp_help_revlogin
 
 --	Run this script to change the local version of the account if needed
